@@ -41,10 +41,10 @@
         }
     }
 
-    footer{
+    .postFooter{
         margin-bottom: 2rem;
 
-        button{
+        > button{
             background: var(--green-500);
             color: var(--white);
             padding: .8rem 1rem;

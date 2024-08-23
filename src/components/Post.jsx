@@ -32,7 +32,7 @@ export function Post(){
 
                 <textarea placeholder="Deixe um comentário"/>
 
-                <footer>
+                <footer className={styles.postFooter}>
                     <button type="submit">Publicar</button>
                 </footer>
             </form>
