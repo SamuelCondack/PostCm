@@ -19,7 +19,7 @@ export function Post(){
 
             <div className={styles.content}>
                 <p>Fala galeraa</p>
-                <p>Acabei de subir um projeto no meu portifa.</p>
+                <p>Acabei de subir um projeto no meu portifólio.</p>
                 <p><a href="">jane.design/doctorcare</a></p>
                 <p>
                     <a href="">#nopvoprojeto</a>{' '}
