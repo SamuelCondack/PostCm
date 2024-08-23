@@ -1,8 +1,9 @@
 import { Avatar } from "./Avatar"
+import { Comment } from "./Comment"
 import styles from "./Post.module.scss"
-export function Post(props){
+
+export function Post(){
     return(
-        <>
         <article className={styles.post}>
             <header>
                 <div className={styles.author}>
@@ -13,7 +14,7 @@ export function Post(props){
                     </div>
                 </div>
 
-                <time title="22 de Agosto às 20:34" datetime="2024-08-22 20:34:46">Publicado há 2 minutos</time>
+                <time title="22 de Agosto às 20:34" dateTime="2024-08-22 20:34:46">Publicado há 2 minutos</time>
             </header>
 
             <div className={styles.content}>
@@ -37,9 +38,10 @@ export function Post(props){
             </form>
 
             <div className={styles.commentList}>
-                
+                <Comment/>
+                <Comment/>
+                <Comment/>
             </div>
         </article>
-        </>
     )
 }

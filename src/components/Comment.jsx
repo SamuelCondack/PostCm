@@ -1,5 +1,4 @@
-import Trash from "phosphor-react"
-import ThumbsUp from "phosphor-react"
+import {Trash, ThumbsUp }from "phosphor-react"
 import styles from './Comment.module.scss'
 import { Avatar } from "./Avatar"
 
@@ -11,7 +10,7 @@ export function Comment(){
             <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
                     <header>
-                        <div className={tyles.authorAndTime}>
+                        <div className={styles.authorAndTime}>
                             <strong>Samuel Condack</strong>
                             <time title="22 de Agosto às 20:56" dateTime="2024-08-22 20:56:10">Cerca de 10 minutos atrás</time>
                         </div>
