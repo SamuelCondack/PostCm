@@ -23,10 +23,10 @@ export function Comment(){
                     <p>Muito bom Devon, parabéns!!</p>
                 </div>
 
-                <footer>
+                <footer className={styles.commentFooter}>
                     <button>
                         <ThumbsUp/>
-                        Aplaudir <span>20</span>
+                        Aplaudir <span>- 20</span>
                     </button>
                 </footer>
             </div>

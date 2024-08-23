@@ -1,0 +1,64 @@
+.comment{
+    display: flex;
+    width: 100%;
+}
+
+.commentBox{
+    margin: 0 1rem;
+    width: 100%;
+}
+
+.commentContent{
+    background-color: var(--gray-700);
+    border-radius: 10px;
+    padding: 1rem;
+
+    p{
+        margin: 1rem 0;
+    }
+
+    button{
+        background: transparent;
+        border: 0;
+        color: var(--gray-400);
+
+        transition: transform .4s, color .4s;
+        &:hover{
+            cursor: pointer;
+            color: var(--gray-200);
+            transform: scale(1.1);
+        }
+
+        &:focus{
+            box-shadow: none;
+        }
+    }
+}
+
+.authorAndTime{
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    margin-bottom: .5rem;
+}
+
+.commentFooter{
+    margin: 1rem 0;
+
+    button{
+        display: flex;
+        gap: .5rem;
+        background: transparent;
+        color: var(--gray-200);
+        border: none;
+
+        &:hover{
+            color: var(--gray-100);
+            cursor: pointer;
+        }
+
+        &:focus{
+            box-shadow: none;
+        }
+    }
+}
