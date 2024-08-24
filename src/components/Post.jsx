@@ -36,12 +36,12 @@ export function Post({ author, publishedAt, content }){
             </div>
 
             <form className={styles.commentForm}>
-                <strong>Deixe seu feedback</strong>
+                <strong>feedback</strong>
 
-                <textarea placeholder="Deixe um comentário"/>
+                <textarea placeholder="Leave a comment"/>
 
                 <footer className={styles.postFooter}>
-                    <button type="submit">Publicar</button>
+                    <button type="submit">Publish</button>
                 </footer>
             </form>
 
