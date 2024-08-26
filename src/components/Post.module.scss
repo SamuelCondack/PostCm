@@ -52,9 +52,14 @@
             border-color: transparent;
 
             transition: all .4s;
-            &:hover{
+            &:hover:not(:disabled){
                 transform: scale(1.1);
                 cursor: pointer;
+            }
+
+            &:disabled{
+                opacity: .7;
+                cursor: not-allowed;
             }
         }
     }

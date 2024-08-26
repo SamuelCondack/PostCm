@@ -15,8 +15,8 @@ function App() {
       },
       content: [
         { type: 'paragraph', content:'Fala galeraa'},
-        { type: 'paragraph', content:'Acabei de subir um projeto no meu portifólio.'},
-        { type: 'link', content:'jane.design/doctorcare'},
+        { type: 'paragraph', content:'Acabei de subir um projeto no meu GitHub.'},
+        { type: 'link', content:'https://github.com/SamuelCondack/PostCm'},
       ],
 
       publishedAt: new Date('2024-08-23 14:21')
